@@ -1,0 +1,24 @@
+{
+  "name": "batteryhub",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyriejoshua/batteryHub.git"
+  },
+  "keywords": [
+    "battery",
+    "notification",
+    "browser"
+  ],
+  "author": "kyriejoshua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyriejoshua/batteryHub/issues"
+  },
+  "homepage": "https://github.com/kyriejoshua/batteryHub#readme"
+}
