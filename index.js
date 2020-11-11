@@ -3,6 +3,7 @@ import {
   IconUrl,
   getBatteryBasicInfo,
   handleBattery,
+  getBatteryInfo,
   requestPermission,
 } from "./batteryHub"
 
