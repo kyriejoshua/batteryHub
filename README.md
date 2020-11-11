@@ -22,6 +22,7 @@ getBatteryInfo();
 
 ## Demo
 
+* It will create a notification every time your computer changes its battery status.
 
 ### That's all
 
