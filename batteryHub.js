@@ -59,12 +59,12 @@ export const handleBattery = (batteryManager) => {
   });
 
   batteryManager.addEventListener('levelchange', function() {
-    const batteryLevel = batteryManager.level;
-    const batteryLevelText = `剩余电量: ${batteryLevel}%`;
-    console.log("电量: " + batteryLevelText + "%");
+    const batteryLevel = batteryManager.level * 100;
+    const batteryLevelText = `当前电量: ${batteryLevel}%`;
+    console.log(batteryLevelText);
 
     if (batteryLevel % 5 === 0) {
-      createANoti("又掉电啦", { body: batteryLevelText }); // 显示通知
+      createANoti("最新电量", { body: batteryLevelText }); // 显示通知
     }
   });
 
