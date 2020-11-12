@@ -19,7 +19,7 @@ export const getChargingInfoText = (isCharged, batteryManager = {}, callback) =>
    * 返回文案
    */
   return () => {
-    const isInFinite = isNumberInFinite(batteryManager.dischargingTime);
+    const isInFinite = isNumberInFinite(chargingTime);
     if (isInFinite) { return; }
     const title = isCharged ? '剩余充电时间：' : '剩余可使用时间：';
     const text = getChargingInfoTextByTime(chargingTime);
