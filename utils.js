@@ -13,7 +13,7 @@ export const isNumberInFinite = (num) =>{
  * @param {*} callback 回调函数
  */
 export const getChargingInfoText = (isCharged, batteryManager = {}, callback) => {
-  const chargingTime = isCharged ? batteryManager.dischargingTime : batteryManager.chargingTime;
+  const chargingTime = isCharged ? batteryManager.chargingTime : batteryManager.dischargingTime;
 
   /**
    * 返回文案
