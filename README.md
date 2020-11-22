@@ -1,5 +1,5 @@
 ![](https://img.shields.io/github/package-json/v/kyriejoshua/batteryHub?style=for-the-badge)
-![](https://img.shields.io/npm/dm/batteryHub?style=for-the-badge)
+![](https://img.shields.io/npm/dy/batteryHub?style=for-the-badge)
 ![](https://img.shields.io/github/languages/code-size/kyriejoshua/batteryHub?style=for-the-badge)
 ![](https://img.shields.io/github/commit-activity/y/kyriejoshua/batteryHub?style=for-the-badge)
 
